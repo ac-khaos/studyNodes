@@ -1,0 +1,13 @@
+* javascript 基础学习笔记
+** 事件监听(event listener)
+- addEventListener
+  #+begin_example
+  $element.addEventListener(onEventName, function);
+  #+end_example
+- Event
+  #+begin_example
+  $element.addEventListener(eventName, function);
+  const event = new Event('eventName');
+  event.param = someParam;
+  document.dispatchEvent(event);
+  #+end_example
