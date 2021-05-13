@@ -1,9 +1,9 @@
 * grpc
-#+begin_src ditaa :file grpc.png
+#+begin_src ditaa :file assets/images/grpc.png
   +------+          /------+
   |client+<-------->|server|
   +------+          +------/
 #+end_src
 
 #+results:
-[[file:grpc.png]]
+[[file:assets/images/grpc.png]]
